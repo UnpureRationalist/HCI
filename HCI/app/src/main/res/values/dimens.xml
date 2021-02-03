@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottonButton">82dp</dimen>
+    <dimen name="largerBottonButtton">90dp</dimen>
+    <dimen name="searchHeight">40dp</dimen>
+    <dimen name="searchHintFontSize">20sp</dimen>
+    <dimen name="searchWidth">250dp</dimen>
+    <dimen name="searchPhotoSize">45dp</dimen>
+    <dimen name="dateSize">16sp</dimen>
+    <dimen name="photoWidth">135dp</dimen>
+    <dimen name="photoHeight">130dp</dimen>
+    <dimen name="dianzanSize">30dp</dimen>
+    <dimen name="headImageSize">130dp</dimen>
+    <dimen name="personalCenterButtonSize">40dp</dimen>
+    <dimen name="personalCenterModuleFontSize">20sp</dimen>
+    <dimen name="moduleReportTextSize">30sp</dimen>
+    <dimen name="topicButtonWidth">320dp</dimen>
+    <dimen name="topicButtonHeight">50dp</dimen>
+    <dimen name="topicButtonMarginBottom">20dp</dimen>
+    <dimen name="topicButtonTextSize">22sp</dimen>
+    <dimen name="starHeight">28dp</dimen>
+    <dimen name="starMarginLeft">-12dp</dimen>
+    <dimen name="backArrowSize">40dp</dimen>
+</resources>

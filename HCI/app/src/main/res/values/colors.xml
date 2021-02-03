@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_200">#3EBAE0</color>
+    <color name="blue_500">#03A9F4</color>
+    <color name="blue_700">#2196F3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="skyBlue">#0DA1CF</color>
+    <color name="textBlack">#00000000</color>
+    <color name="personalCenterBackgroundColor">#EEE0DF</color>
+    <color name="personalCenterTextColor">#2B2B2B</color>
+    <color name="red">#FF0000</color>
+    <color name="submitButtonColor">#F8CBAD</color>
+    <color name="submitTextColor">#FF23299E</color>
+    <color name="buttonColor1">#00B0F0</color>
+    <color name="buttonColor2">#FF7C80</color>
+    <color name="buttonColor3">#92D050</color>
+    <color name="buttonColor4">#9999FF</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+</resources>

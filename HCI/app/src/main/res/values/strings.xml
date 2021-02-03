@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">森物语</string>
+    <string name="searchHint">Search for</string>
+    <string name="zanglingyangText">
+        高原的辽阔，容纳不下罪恶的枪声。在历时八昼夜“保护藏羚羊，打击捕猎者”行动中，武警新疆森林总队官兵行程5000多公里，穿行在45万平方公里的区域 ……
+    </string>
+    <string name="more">更多</string>
+    <string name="birdText">
+        近年来，全球鸟类生存状况持续恶化，有许多空白和问题需要更多关注与社会资源投入。本文共包括对鸟类保护领域的观察与思考、行业概览，鸟类保护等内容
+    </string>
+    <string name="personalCenter">个人中心</string>
+    <string name="personalName">ProtectU</string>
+    <string name="personalCenterHint">
+        所有的相遇，都是久别重逢~
+    </string>
+    <string name="reportHint">
+        您反映的情况将在24小时内处理，处理后我们会第一时间内通过私信告知。
+    </string>
+
+</resources>

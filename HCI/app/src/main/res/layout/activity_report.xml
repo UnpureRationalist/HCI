@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background4">
+    <!--    搜索栏   -->
+
+    <!--    填充页面内容  -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="救助"
+            android:textColor="@color/red"
+            android:textSize="@dimen/moduleReportTextSize"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/moduleReportTextSize"
+            android:textColor="@color/black"
+            android:text="/"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/moduleReportTextSize"
+            android:textColor="@color/red"
+            android:text="举报"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/moduleReportTextSize"
+            android:textColor="@color/black"
+            android:text="中心"></TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reportlogo"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addPhoto"
+            android:background="@drawable/head_image_background"
+            android:src="@drawable/addphoto"></ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addVideo"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/head_image_background"
+            android:src="@drawable/addvideo"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="390dp"
+            android:layout_height="210dp"
+            android:paddingRight="10dp"
+            android:padding="10dp"
+            android:hint="请简要描述具体情况："
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:background="@drawable/report_background"
+            android:gravity="start"></EditText>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/report_small_hint"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/reportHint"></TextView>
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="提  交"
+                android:background="@drawable/report_submit_button_background"
+                android:textSize="28sp"
+                android:textColor="@color/black"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <!--  底部导航栏  -->
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_latest_message"></ImageButton>
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_special_topic"
+                ></ImageButton>
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton3"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_animal_list"
+                ></ImageButton>
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_report"
+                ></ImageButton>
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton5"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_personal_center"
+                ></ImageButton>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyMessageActivity"
+    android:background="@drawable/figure_my_message">
+    <!--    填充页面内容  -->
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="75dp"
+        android:id="@+id/handleReport"
+        android:background="@drawable/start_answer_button_background"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="60dp"
+        ></Button>
+</FrameLayout>

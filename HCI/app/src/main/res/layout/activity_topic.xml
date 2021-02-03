@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background2">
+    <!--    搜索栏   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_width="@dimen/searchWidth"
+            android:layout_height="@dimen/searchHeight"
+            android:hint="@string/searchHint"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/searchHintFontSize"
+            android:background="@drawable/search_bar_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            >
+        </EditText>
+        <ImageButton
+            android:layout_width="@dimen/searchPhotoSize"
+            android:layout_height="@dimen/searchPhotoSize"
+            android:src="@drawable/search"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-1dp"
+            >
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/searchPhotoSize"
+            android:layout_height="@dimen/searchPhotoSize"
+            android:scaleType="centerCrop"
+            android:src="@drawable/camera"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-2dp">
+        </ImageButton>
+        <ImageButton
+            android:layout_width="@dimen/searchPhotoSize"
+            android:layout_height="@dimen/searchPhotoSize"
+            android:scaleType="centerCrop"
+            android:src="@drawable/publish_button"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp">
+        </ImageButton>
+    </LinearLayout>
+
+
+    <!--    填充页面内容  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="@dimen/topicButtonWidth"
+            android:layout_height="@dimen/topicButtonHeight"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/topic_button_background1"
+            android:hint="极地森林"
+            android:textSize="@dimen/topicButtonTextSize"
+            android:textColor="@color/black"></Button>
+        <Button
+            android:layout_width="@dimen/topicButtonWidth"
+            android:layout_height="@dimen/topicButtonHeight"
+            android:id="@+id/hotForest"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/topic_button_background2"
+            android:hint="炽热森林"
+            android:textSize="@dimen/topicButtonTextSize"
+            android:textColor="@color/black"></Button>
+        <Button
+            android:layout_width="@dimen/topicButtonWidth"
+            android:layout_height="@dimen/topicButtonHeight"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/topic_button_background3"
+            android:hint="迷失森林"
+            android:textSize="@dimen/topicButtonTextSize"
+            android:textColor="@color/black"></Button>
+        <Button
+            android:layout_width="@dimen/topicButtonWidth"
+            android:layout_height="@dimen/topicButtonHeight"
+            android:id="@+id/deadForest"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/topic_button_background4"
+            android:hint="安息森林"
+            android:textSize="@dimen/topicButtonTextSize"
+            android:textColor="@color/black"></Button>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/topic_photo"></ImageView>
+
+    </LinearLayout>
+
+
+    <!--  底部导航栏  -->
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_latest_message"></ImageButton>
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_special_topic"
+                ></ImageButton>
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton3"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_animal_list"
+                ></ImageButton>
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_report"
+                ></ImageButton>
+            <ImageButton
+                android:layout_width="@dimen/bottonButton"
+                android:layout_height="@dimen/bottonButton"
+                android:id="@+id/bottomButton5"
+                android:scaleType="centerCrop"
+                android:src="@drawable/module_personal_center"
+                ></ImageButton>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

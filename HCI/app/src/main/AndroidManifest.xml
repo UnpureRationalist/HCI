@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.org.hci">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HCI">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".SecondActivity">
+
+        </activity>
+        <activity android:name=".ThirdActivity">
+
+        </activity>
+        <activity android:name=".FourthActivity">
+
+        </activity>
+        <activity android:name=".FifthActivity">
+
+        </activity>
+        <activity android:name=".ModifyInfoActivity">
+
+        </activity>
+        <activity android:name=".MyMessageActivity">
+
+        </activity>
+        <activity android:name=".MyScoreActivity">
+
+        </activity>
+        <activity android:name=".MyFriendActivity">
+
+        </activity>
+        <activity android:name=".MyDonateActivity">
+
+        </activity>
+        <activity android:name=".MyAnswerActivity">
+
+        </activity>
+        <activity android:name=".MyAnswerTipsActivity">
+
+        </activity>
+        <activity android:name=".ChildModuleActivity">
+
+        </activity>
+        <activity android:name=".HotForestActivity">
+
+        </activity>
+        <activity android:name=".DeadForestActivity">
+
+        </activity>
+        <activity android:name=".SearchResultActivity">
+
+        </activity>
+        <activity android:name=".NorthCircleActivity">
+
+        </activity>
+        <activity android:name=".ShareActivity">
+
+        </activity>
+        <activity android:name=".ReportUserActivity">
+
+        </activity>
+        <activity android:name=".TakePhotoActivity">
+
+        </activity>
+        <activity android:name=".PublishActivity">
+
+        </activity>
+        <activity android:name=".HandleReportActivity">
+
+        </activity>
+        <activity android:name=".TalkWithAnimalActivity">
+
+        </activity>
+    </application>
+
+</manifest>
